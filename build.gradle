@@ -6,9 +6,9 @@ repositories{
     mavenCentral()
 
     //gradle从这里面寻找需要的类库的时候，是不会去遍历里面的子文件夹的
-    flatDir {
-       dirs 'E:\\homework\\java\\workspace\\respository'
-   }
+//    flatDir {
+       //dirs '/homework/java\\workspace\\respository'
+//   }
 }
 
 dependencies{
@@ -20,17 +20,16 @@ dependencies{
             ,'org.apache.commons:commons-lang3:3.4'
             ,'commons-io:commons-io:2.4'
             ,'com.google.guava:guava:18.0'
-            ,'com.github.stephenc:jamm:0.2.5'
             ,'javax.mail:mail:1.4.7'
 
     )
     /*
      * 依赖本地的项目jar包
      */
-    compile fileTree(
-            dir:"E:\\homework\\java\\workspace\\respository"
-            ,include:"*\\*.jar"
-    )
+//    compile fileTree(
+//            dir:"E:\\homework\\java\\workspace\\respository"
+//            ,include:"*\\*.jar"
+//    )
 }
 
 task copyToLib (type: Copy) {

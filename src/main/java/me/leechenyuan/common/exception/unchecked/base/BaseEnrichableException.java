@@ -1,4 +1,4 @@
-package me.leechenyuan.exception.unchecked.base;
+package me.leechenyuan.common.exception.unchecked.base;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,4 +19,5 @@ public class BaseEnrichableException extends RuntimeException{
     public BaseEnrichableException(String msg,Throwable cause){
         super(msg,cause);
     }
+
 }

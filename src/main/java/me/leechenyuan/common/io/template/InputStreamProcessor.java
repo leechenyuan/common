@@ -1,4 +1,4 @@
-package me.leechenyuan.template.io;
+package me.leechenyuan.common.io.template;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,10 +1,8 @@
-package me.leechenyuan.template.io;
+package me.leechenyuan.common.io.template;
 
-import me.leechenyuan.exception.unchecked.io.MyIOException;
-import me.leechenyuan.util.exception.BasicRichableExceptionHandler;
+import me.leechenyuan.common.exception.handler.BasicRichableExceptionHandler;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 

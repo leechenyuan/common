@@ -1,4 +1,4 @@
-package me.leechenyuan.util.exception;
+package me.leechenyuan.common.exception.handler;
 
 /**
  * * Created by lee chenyuan on 2015/8/3.

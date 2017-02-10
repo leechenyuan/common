@@ -1,6 +1,6 @@
-package me.leechenyuan.template.io;
+package me.leechenyuan.common.io.template;
 
-import me.leechenyuan.exception.unchecked.io.MyIOException;
+import me.leechenyuan.common.exception.handler.BasicRichableExceptionHandler;
 
 import java.io.Closeable;
 import java.io.IOException;
@@ -14,7 +14,7 @@ public class StreamCloser {
             try {
                 cl.close();
             } catch (IOException e) {
-                throw new MyIOException("error closing ");
+                BasicRichableExceptionHandler.INSTANCE.handle(e.getMessage(),e);
             }
         }
     }

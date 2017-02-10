@@ -1,4 +1,4 @@
-package me.leechenyuan.exception.unchecked.base;
+package me.leechenyuan.common.exception.unchecked.base;
 
 /**
  * Created by L on 2015/7/21.

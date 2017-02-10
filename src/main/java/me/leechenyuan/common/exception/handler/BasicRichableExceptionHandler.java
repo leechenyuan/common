@@ -1,11 +1,11 @@
-package me.leechenyuan.util.exception;
+package me.leechenyuan.common.exception.handler;
 
-import me.leechenyuan.exception.unchecked.base.BaseEnrichableException;
+import me.leechenyuan.common.exception.unchecked.base.BaseEnrichableException;
 
 /**
  * * Created by lee chenyuan on 2015/8/3.
  */
-public enum BasicRichableExceptionHandler implements RichableExceptionHandler{
+public enum BasicRichableExceptionHandler implements RichableExceptionHandler {
     INSTANCE;
     @Override
     public void handle(String msg, Throwable cause) {
